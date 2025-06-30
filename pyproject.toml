@@ -1,0 +1,37 @@
+# SPDX-License-Identifier: LicenseRef-SinnZeit-1.0
+# SPDX-FileCopyrightText: 2025 beNetX – Moritz Oliver Benatzky
+# SPDX-Comment: An artifact of the NoHouse.DotMesh—born from the synthesis of human vision and machine logic.
+
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benetx-public"
+version = "0.1.0"
+description = "beNetX Public Artefacts, Prinzipien und Dokumente"
+authors = [
+    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
+description = "beNetX Public Artefacts, Prinzipien und Dokumente"
+authors = [
+    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
+description = "beNetX Public Artefacts, Prinzipien und Dokumente"
+authors = [
+    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
+description = "beNetX Public Artefacts, Prinzipien und Dokumente"
+authors = [
+    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["benetx_public*"]
+exclude = ["tests*", "build*", "*.egg-info*", "LICENSES*", ".git*", ".github*"] 

@@ -1,0 +1,37 @@
+# SPDX-License-Identifier: LicenseRef-SinnZeit-1.0
+# SPDX-FileCopyrightText: 2025 beNetX – Moritz Oliver Benatzky
+# SPDX-Comment: An artifact of the NoHouse.DotMesh—born from the synthesis of human vision and machine logic.
+
+name: schema-lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+name: schema-lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install check-jsonschema
+        run: pip install check-jsonschema
+      - name: Validate Dot-Schemas
+        run: |
+          find dot_schema -type f -name '*.json' -print0 | \
+            xargs -0 -n1 -I{} check-jsonschema --schemafile {} {} 
