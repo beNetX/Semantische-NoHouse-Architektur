@@ -12,15 +12,6 @@ version = "0.1.0"
 description = "beNetX Public Artefacts, Prinzipien und Dokumente"
 authors = [
     { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
-description = "beNetX Public Artefacts, Prinzipien und Dokumente"
-authors = [
-    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
-description = "beNetX Public Artefacts, Prinzipien und Dokumente"
-authors = [
-    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
-description = "beNetX Public Artefacts, Prinzipien und Dokumente"
-authors = [
-    { name = "Moritz Oliver Benatzky", email = "office@benetx.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.11"

@@ -36,14 +36,14 @@ status: "active"
 - `benetx-dashboard/` - Web-basiertes Dashboard für Monitoring und Steuerung
 - `benetx-docs/` - Systemdokumentation und Wissensbasis
 - `benetx-dots/` - Dot-System für Datenverwaltung und -strukturierung
-- `benetx-echo/` - Echo & Resonanz Semilogie-Implementierung
+- `benetx-productmatrix/` - Echo & Resonanz Semilogie-Implementierung
 - `benetx-front/` - Frontend-Anwendung
 - `benetx-gateways/` - API-Gateways für externe Dienste
-- `benetx-jobs/` - Hintergrund-Jobs und Automatisierung
+- `benetx-datajobs/` - Hintergrund-Jobs und Automatisierung
 - `benetx-llm/` - LLM-Integration (Mistral via Ollama)
 - `benetx-ml/` - Machine Learning Komponenten
-- `benetx-results/` - Ergebnisverarbeitung und -speicherung
-- `benetx-sync/` - Synchronisation zwischen Systemen
+- `benetx-dataresults/` - Ergebnisverarbeitung und -speicherung
+- `benetx-nodesync/` - Synchronisation zwischen Systemen
 
 ## Modul-Details
 
@@ -71,7 +71,7 @@ status: "active"
 - Dot-Verarbeitung
 - Dot-Speicherung
 
-### benetx-echo
+### benetx-productmatrix
 - Echo & Resonanz Semilogie
 - Text-Generierung
 - Semantische Analyse
@@ -89,7 +89,7 @@ status: "active"
 - Google Services Gateway
 - Weitere API-Integrationen
 
-### benetx-jobs
+### benetx-datajobs
 - Hintergrund-Jobs
 - Automatisierte Tasks
 - Batch-Verarbeitung
@@ -107,13 +107,13 @@ status: "active"
 - Feature Engineering
 - Modell-Training
 
-### benetx-results
+### benetx-dataresults
 - Ergebnisverarbeitung
 - Daten-Export
 - Berichtsgenerierung
 - Ergebnis-Speicherung
 
-### benetx-sync
+### benetx-nodesync
 - Daten-Synchronisation
 - System-Integration
 - Echtzeit-Updates
@@ -129,15 +129,15 @@ beNetX/
 │   └── docs/              # Dokumentationsdateien
 ├── benetx-dots/            # Dot-System
 │   └── dots/              # Dot-Dateien
-├── benetx-echo/            # Echo & Resonanz
+├── benetx-productmatrix/            # Echo & Resonanz
 ├── benetx-front/           # Frontend
 ├── benetx-gateways/        # API-Gateways
-├── benetx-jobs/            # Hintergrund-Jobs
+├── benetx-datajobs/            # Hintergrund-Jobs
 ├── benetx-llm/             # LLM-Integration
 │   └── prompts/           # LLM-Prompts
 ├── benetx-ml/              # Machine Learning
-├── benetx-results/         # Ergebnisse
-└── benetx-sync/            # Synchronisation
+├── benetx-dataresults/         # Ergebnisse
+└── benetx-nodesync/            # Synchronisation
 ```
 
 ## Entwicklungsumgebung
