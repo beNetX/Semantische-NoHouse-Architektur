@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: LicenseRef-SinnZeit-1.0
+# SPDX-FileCopyrightText: 2025 beNetX – Moritz Oliver Benatzky
+# SPDX-Comment: An artifact of the NoHouse.DotMesh—born from the synthesis of human vision and machine logic.
+
 <!-- SPDX-License-Identifier: LicenseRef-SinnZeit-1.0 -->
 <!-- SPDX-FileCopyrightText: 2025 beNetX – Moritz Oliver Benatzky M.A. -->
 <!-- SPDX-Comment: An artifact of the NoHouse.DotMesh—born from the synthesis of human vision and machine logic. -->
@@ -32,18 +36,25 @@ status: "active"
 ## Hauptmodule
 
 ### Core-Module
-- `benetx-control/` - Zentrale Steuerung und Orchestrierung
-- `benetx-dashboard/` - Web-basiertes Dashboard für Monitoring und Steuerung
-- `benetx-docs/` - Systemdokumentation und Wissensbasis
-- `benetx-dots/` - Dot-System für Datenverwaltung und -strukturierung
-- `benetx-productmatrix/` - Echo & Resonanz Semilogie-Implementierung
-- `benetx-front/` - Frontend-Anwendung
-- `benetx-gateways/` - API-Gateways für externe Dienste
-- `benetx-datajobs/` - Hintergrund-Jobs und Automatisierung
-- `benetx-llm/` - LLM-Integration (Mistral via Ollama)
-- `benetx-ml/` - Machine Learning Komponenten
-- `benetx-dataresults/` - Ergebnisverarbeitung und -speicherung
-- `benetx-nodesync/` - Synchronisation zwischen Systemen
+- `apps/benetx-dashboard/` - Web-basiertes Dashboard für Monitoring und Steuerung
+- `apps/benetx-factory-builder/` - Factory Builder für Dot-Erstellung
+
+### Packages
+- `packages/benetx-control/` - Zentrale Steuerung und Orchestrierung
+- `packages/benetx-dots/` - Dot-System für Datenverwaltung und -strukturierung
+- `packages/benetx-llm/` - LLM-Integration (Mistral via Ollama)
+- `packages/benetx-ml/` - Machine Learning Komponenten
+- `packages/benetx-agents/` - Agent-System mit YAML-Konfiguration
+- `packages/benetx-core/` - Core-Funktionalitäten
+
+### Services
+- `services/benetx-docs/` - Systemdokumentation und Wissensbasis
+- `services/benetx-productmatrix/` - Echo & Resonanz Semilogie-Implementierung
+- `services/benetx-front/` - Frontend-Anwendung
+- `services/benetx-gateways/` - API-Gateways für externe Dienste
+- `services/benetx-datajobs/` - Hintergrund-Jobs und Automatisierung
+- `services/benetx-dataresults/` - Ergebnisverarbeitung und -speicherung
+- `services/benetx-nodesync/` - Synchronisation zwischen Systemen
 
 ## Modul-Details
 
@@ -53,11 +64,12 @@ status: "active"
 - System-Monitoring
 - Konfigurationsmanagement
 
-### benetx-dashboard
-- Web-basiertes Dashboard
+### apps/benetx-dashboard
+- Web-basiertes Dashboard (Vue3 + FastAPI)
 - Echtzeit-Monitoring
 - System-Status
 - Benutzer-Interface
+- Typer CLI für Deployment
 
 ### benetx-docs
 - Systemdokumentation
@@ -123,21 +135,24 @@ status: "active"
 
 ```
 beNetX/
-├── benetx-control/          # Zentrale Steuerung
-├── benetx-dashboard/        # Web-Dashboard
-├── benetx-docs/            # Systemdokumentation
-│   └── docs/              # Dokumentationsdateien
-├── benetx-dots/            # Dot-System
-│   └── dots/              # Dot-Dateien
-├── benetx-productmatrix/            # Echo & Resonanz
-├── benetx-front/           # Frontend
-├── benetx-gateways/        # API-Gateways
-├── benetx-datajobs/            # Hintergrund-Jobs
-├── benetx-llm/             # LLM-Integration
-│   └── prompts/           # LLM-Prompts
-├── benetx-ml/              # Machine Learning
-├── benetx-dataresults/         # Ergebnisse
-└── benetx-nodesync/            # Synchronisation
+├── apps/                   # Anwendungen
+│   ├── benetx-dashboard/   # Web-Dashboard (Vue3 + FastAPI)
+│   └── benetx-factory-builder/ # Factory Builder
+├── packages/               # Pakete
+│   ├── benetx-control/     # Zentrale Steuerung
+│   ├── benetx-dots/        # Dot-System
+│   ├── benetx-llm/         # LLM-Integration
+│   ├── benetx-ml/          # Machine Learning
+│   ├── benetx-agents/      # Agent-System
+│   └── benetx-core/        # Core-Funktionalitäten
+├── services/               # Services
+│   ├── benetx-docs/        # Systemdokumentation
+│   ├── benetx-productmatrix/ # Echo & Resonanz
+│   ├── benetx-front/       # Frontend
+│   ├── benetx-gateways/    # API-Gateways
+│   ├── benetx-datajobs/    # Hintergrund-Jobs
+│   ├── benetx-dataresults/ # Ergebnisse
+│   └── benetx-nodesync/    # Synchronisation
 ```
 
 ## Entwicklungsumgebung
