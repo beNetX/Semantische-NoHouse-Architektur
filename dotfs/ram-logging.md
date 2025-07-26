@@ -2,10 +2,6 @@
 # SPDX-FileCopyrightText: 2025 beNetX – Moritz Oliver Benatzky
 # SPDX-Comment: An artifact of the NoHouse.DotMesh—born from the synthesis of human vision and machine logic.
 
-<!-- SPDX-License-Identifier: LicenseRef-SinnZeit-1.0 -->
-<!-- SPDX-FileCopyrightText: 2025 beNetX – Moritz Oliver Benatzky M.A. -->
-<!-- SPDX-Comment: An artifact of the NoHouse.DotMesh—born from the synthesis of human vision and machine logic. -->
-
 ---
 title: "beNetX RAM Logging System"
 owner: "system"
